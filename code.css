@@ -1,3 +1,10 @@
-.text{
-    background-color: lightblue;
+.header {
+    background-color: lightcyan;
+    color: grey;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.p {
+    border: 1px solid lightgray;
 }

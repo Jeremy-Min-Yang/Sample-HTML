@@ -9,22 +9,24 @@
   <body>
     <section>
       <nav>
-        <img src="./Assets/FES.svg" alt="" />
+        <img src="./Assets/FES.svg" class="logo" alt="" />
         <ul>
-          <li><a href="#about"></a></li>
-          <li><a href="#discord"></a></li>
-          <li><a href="#contact us"></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
       <header>
+        <div class="row">
         <div>
           <h1>Learning Frontend</h1>
-          <p>
+          <p class = "subheader">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
             odit?
           </p>
-          <button>Start Here:</button>
+          <button>Start Here</button>
         </div>
+      </div>
         <figure>
           <img src="./Assets/laptop.png" alt="" />
         </figure>
@@ -34,25 +36,34 @@
     <main>
       <section id="about">
         <h2>About</h2>
+        <div class="row">
+        <div class="section-descripton">
+          <div class = "section-description--wrapper">
         <div>
-          <p>
+          <p class="section-description--paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
             tempora inventore! Perferendis eos dolor ipsam unde alias, debitis
             adipisci iusto ab iure, tenetur nihil quo tempora, quas quam.
             Voluptatem, aliquid.
           </p>
-          <p>
+          <p class="section-description--paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
             adipisci excepturi doloremque architecto suscipit et sequi, ex quos
             sed, totam cumque facilis provident laborum perferendis vitae hic?
             Recusandae, commodi incidunt.
           </p>
         </div>
-        <figure><img src="./Assets/laptop.png" alt="" /></figure>
+        <figure class="about__img--wrapper">
+          <img src="./Assets/about.jpg" alt="" />
+        </figure>
+      </div>
+    </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
+        <div class="row">
+        <div class="section-description">
         <figure>
           <img src="./Assets/dashboard/discord.png" alt="" />
         </figure>
@@ -70,26 +81,29 @@
             optio, molestias iure?
           </p>
         </div>
+      </div>
+      </div>
       </section>
 
-      <section id="contact us">
-        <h2>Contact us</h2>
+      <section id="Contact">
+        <h2>Contact</h2>
         <form action="">
           <span>Email</span>
           <input type="text" placeholder="john@example.com">
           <span>Message</span>
           <textarea type=""text" placeholder="text here"></textarea>
+          <button>Contact Us</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="./Assets/FES.svg" alt="">
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <img class = "footer__logo" src="./Assets/FES.svg" alt="">
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#Contact">Contact</a>
+        <a class="footer__link" href="Courses">Courses</a>
       </div>
       <p>Copyright Gangsta</p>
     </footer>
